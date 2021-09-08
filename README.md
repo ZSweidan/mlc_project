@@ -1,4 +1,4 @@
-![Airborne Banner](https://i.imgur.com/MxW7ySd.jpg)
+<!-- ![Airborne Banner](https://i.imgur.com/MxW7ySd.jpg)
 
 # Airborne Object Tracking Challenge Starter Kit
 
@@ -178,4 +178,4 @@ We have curated frequently asked questions and common mistakes on Discourse, you
 
 🗣️ &nbsp;Discussion Forum: https://www.aicrowd.com/challenges/airborne-object-tracking-challenge/discussion
 
-🏆 &nbsp;Leaderboard: https://www.aicrowd.com/challenges/airborne-object-tracking-challenge/leaderboards
+🏆 &nbsp;Leaderboard: https://www.aicrowd.com/challenges/airborne-object-tracking-challenge/leaderboards -->
