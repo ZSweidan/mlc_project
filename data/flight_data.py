@@ -3,7 +3,6 @@
 # class of the object, width and height of the image, all after resizing
 nb_frames = test_flight.num_frames
 image_area =  (2448/4)*(2048/4)
-print("img area", image_area)
 frames_keys = []
 bbs = []
 file1 = open(test_flight.id+".txt", "a") 

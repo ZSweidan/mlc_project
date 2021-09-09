@@ -76,7 +76,6 @@ for i in range(0,nb_frames):
   s2_3.text = str(2048/4)
   s3_3 = gfg.SubElement(e3, "depth")
   s3_3.text = "img depth"
-  #  Zahraa
   
   s4= gfg.SubElement(root, "segmented")
   s4.text = "0"  
@@ -117,4 +116,3 @@ for i in range(0,nb_frames):
       
     with open ("images_xml/"+img_name + ".xml", "wb") as files :
         tree.write(files)   
-      # obj_of_interest.append(airborne_objects[obj])  
