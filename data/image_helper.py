@@ -1,6 +1,6 @@
 import cv2
 from google.colab.patches import cv2_imshow
-
+#takes image path, coordinates of the object and draws a rectangle on it
 def get_image_with_bb(path, xmin, ymin, xmax, ymax):
   image2 = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
   start_point = (xmin, ymin) 
@@ -16,9 +16,6 @@ def get_image_with_bb(path, xmin, ymin, xmax, ymax):
   # Draw a rectangle with blue line borders of thickness of 2 px 
   image2 = cv2.rectangle(image2, start_point, end_point, color, thickness) 
   
-  bboxes = [
-     [400.55, 265.55, 402.05, 267.05, 'Helicopter', 'item']
-  ]
 
   cv2_imshow(image2)
 
